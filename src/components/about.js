@@ -69,17 +69,7 @@ const Content = styled.div`
   }
 `;
 
-const ImageContainer = styled.div`
-  flex-shrink: 0;
 
-  img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #00bcd4;
-  }
-`;
 
 const TextContainer = styled.div`
   max-width: 600px;
@@ -152,25 +142,6 @@ const Achievements = styled.div`
       padding: 0.3rem 0;
       font-weight: bold;
       color: #444;
-    }
-  }
-`;
-
-const ContactButton = styled.div`
-  margin-top: 2rem;
-
-  button {
-    padding: 0.8rem 2rem;
-    background-color: #3f51b5;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: 0.3s ease;
-
-    &:hover {
-      background-color: #00bcd4;
     }
   }
 `;

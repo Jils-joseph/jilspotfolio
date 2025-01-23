@@ -14,7 +14,7 @@ const Contact = () => {
     e.preventDefault();
     if (formData.name && formData.email && formData.message) {
       setSubmitted(true);
-      setFormData({ name: "", jilsjoseph769@gmail.com: "", message: "" });
+      setFormData({ name: "", email: "", message: "" });
     } else {
       alert("Please fill in all fields.");
     }
